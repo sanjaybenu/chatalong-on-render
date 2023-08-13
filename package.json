@@ -1,0 +1,28 @@
+{
+  "name": "chatalong",
+  "version": "1.0.0",
+  "description": "A Chat Site",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "seed": "cd server && npm run seed",
+    "build": "cd client && npm run build"
+  },
+
+  "devDependencies": {
+    "concurrently": "^5.1.0"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NanthanTK/ChatAlong.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NanthanTK/ChatAlong/issues"
+  },
+  "homepage": "https://github.com/NanthanTK/ChatAlong#readme"
+}

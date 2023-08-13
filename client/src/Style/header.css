@@ -1,0 +1,13 @@
+.Img_logo{
+    height: 30px;
+    width: 125px;
+}
+
+.menu_bar{
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+.menu_bar:hover {
+    cursor: pointer;
+  }

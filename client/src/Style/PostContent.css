@@ -1,0 +1,29 @@
+.PostContainer{
+     width: 70%;
+     margin-left: 15%;
+     margin-top: 2%;
+}
+
+.PostUsername {
+    opacity: 0.7; /* Adjust the value to make the text more or less muted */
+    text-align: left;
+  }
+
+.PostTitle{
+    font-size: 50px;
+}
+
+.CommentContainer{
+margin-bottom: 100%;
+margin-top: 20px; /* Adjust the value as needed */
+}
+
+
+.postcontentCardInputfeild{
+  margin-left: 28%;
+}
+
+.span {
+  font-size: 1.25rem;
+  font-weight: 600
+}
